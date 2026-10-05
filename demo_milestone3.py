@@ -3,7 +3,7 @@ import csv
 
 #Milestone 3 - Reading in csv file data alongside other demonstrations.
 #Milestone 1 demo found in main husky.py file, demos for Milestone 2 and 3 are in this file.
-#Implemented by Michelle Prucnal and Michael Arcari.
+#Implemented by Michelle P and Michael A.
 
 #course catalog CSE10
 UConn = h.University()  #central manager, University object UConn
