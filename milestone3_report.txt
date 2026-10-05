@@ -1,0 +1,26 @@
+Milestone 3 complexity report by Michelle P
+
+Big-O time complexity for put and get in your HashMap:
+
+put() and get() should have a time complexity of O(1), however when there are hash collisions 
+this may slow down the operation to O(n) time. Rehashing can reduce the time complexity back down
+to constant time, since then there will only be one element per bucket in the Hashmap.
+
+Big-O time complexity for each sorting algorithm you implemented:
+
+Mergesort:
+Best case: O(nlogn)
+Average case: O(nlogn)
+Worst case: O(nlogn)
+
+Quicksort:
+Best case: O(nlogn)
+Average case: O(nlogn)
+Worst case: O(n^2)
+
+Comparison between quicksort and mergesort, and cases where mergesort/quicksort would be preferred over the other:
+
+Mergesort is a stable algorithm, where quicksort is not when using the partition. The naive
+version of quicksort is stable, however it handles reverse sorted lists very poorly, as the 
+last element of the list is typically taken as the pivot. Therefore, the time complexity would
+be O(n^2), which is the worst case. This is where mergesort would be a better algorithm to use.

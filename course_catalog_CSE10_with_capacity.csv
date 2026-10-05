@@ -1,0 +1,11 @@
+course_id,course_title,credits,department,capacity
+CSE1010,Introduction to Computing for Engineers,3,CSE,40
+CSE2050,Data Structures and Object-Oriented Design,3,CSE,35
+CSE2102,Introduction to Software Engineering,3,CSE,30
+CSE2500,Introduction to Discrete Systems,3,CSE,35
+CSE2600,Introduction to Data Science and Engineering,3,CSE,30
+CSE3100,Systems Programming,3,CSE,28
+CSE3140,Cybersecurity Lab,2,CSE,24
+CSE3150,C++ Essentials,3,CSE,25
+CSE3500,Algorithms and Complexity,3,CSE,30
+CSE3666,Introduction to Computer Architecture,3,CSE,28

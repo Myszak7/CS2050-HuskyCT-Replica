@@ -1,0 +1,30 @@
+Milestone 2 Report by Michelle P
+
+1. Big-O time complexity for enqueue and dequeue in LinkedQueue:
+The waitlist in our program is a queue with a LinkedList structure, meaning that it will keep track of the head, tail, and decrement
+or increment the size. As a result, enqueue and dequeue will have an O(1) constant time complexity. In each method, the tail or
+head pointer will be updated to adjust to an item being removed or added to the LinkedQueue.
+
+2. Big-O time complexity for each sorting algorithm, Bubble and Insertion sort:
+Bubble Sort: 
+Worst: O(n^2) Quadratic
+Average: O(n^2) Quadratic
+Best: O(n) Linear (if records are already sorted, which they should be since csv file data is sorted.)
+
+Insertion Sort:
+Worst: O(n^2) Quadratic
+Average: O(n^2) Quadratic
+Best: O(n) Linear (if records are already sorted, which they should be since csv file data is sorted.)
+
+3. Big-O time complexity for recursive binary search, why is sorting required for correctness:
+Worst: O(logn)
+Average: O(logn)
+Best: O(1), if the item we are searching for is at the median index of the list
+
+A list has to be sorted for a correct recursive binary search because we are "removing" half of the list each time 
+we perform a recursive call, and we expect that all elements in that half are either larger or smaller than the value of the 
+item we are searching for. This is why we need to call on any of our sorting algorithms to sort the list before we perform
+a recursive binary search.
+
+4. Comparison between bubble and insertion sort and when each would perform best:
+Bubble and insertion sort would both work best when a given list is already sorted.
